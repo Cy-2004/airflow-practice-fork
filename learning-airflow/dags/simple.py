@@ -14,7 +14,7 @@ MONGOPASS = Variable.get('MONGOPASS')
 
 uri = "mongodb+srv://cluster0.m3fek.mongodb.net/"
 client = MongoClient(uri, username='ds2022', password=MONGOPASS, connectTimeoutMS=200, retryWrites=True)
-db = client.nem2p  # database
+db = client.gzd2yk  # database
 flights = db.flights     # collection 
 
 # -------------- #
